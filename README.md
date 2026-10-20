@@ -11,6 +11,10 @@ signed releases, written decisions.
   auto-fix. Every release is cosign-signed and traceable to the CI run that built it; security
   advisories are published with CVEs. Backed by a study of 11,000 public Compose files —
   [9 in 10 skip the basic security flags](https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf).
+- **[container-sec-derive](https://github.com/tmatens/container-sec-derive)** — runtime observation
+  tool (Go, eBPF via Inspektor Gadget) that watches a container run and derives the minimum
+  security config it actually needs — capabilities, read-only filesystem, devices — instead of
+  guessing.
 - **[container-security-profiles](https://github.com/tmatens/container-security-profiles)** —
   evidence-backed least-privilege profiles for common self-hosted images, each with drop-test
   proof that the image still works.
@@ -18,7 +22,7 @@ signed releases, written decisions.
   advisor gadgets that derive capabilities, read-only rootfs and device grants from live eBPF
   observation.
 
-The thread through all three: least privilege should be *measured*, not guessed.
+The thread through all four: least privilege should be *measured*, not guessed.
 
 ## Elsewhere
 
