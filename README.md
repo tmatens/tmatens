@@ -22,8 +22,8 @@ The thread through all three: least privilege should be *measured*, not guessed.
 
 ## Elsewhere
 
-- Contributor to the [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
-  and [analysis-tools.dev](https://analysis-tools.dev/tool/compose-lint).
+- Wrote the Compose-file scanner list (Rule 9) in the
+  [OWASP Docker Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html).
 - Writing: [dev.to/tmatens](https://dev.to/tmatens) · Docs: [tmatens.github.io/compose-lint](https://tmatens.github.io/compose-lint/)
 - [LinkedIn](https://www.linkedin.com/in/toddmatens/)
 
