@@ -8,8 +8,8 @@ signed releases, written decisions.
 
 - **[compose-lint](https://github.com/tmatens/compose-lint)** — security linter for Docker Compose
   files, grounded in OWASP and the CIS Docker Benchmark. SARIF output, GitHub Action, dry-run
-  auto-fix. Every release is cosign-signed and traceable to the CI run that built it; security
-  advisories are published with CVEs. Backed by a study of 11,000 public Compose files —
+  auto-fix. Every release is cosign-signed and traceable to the CI run that built it, and security
+  advisories are published on GitHub. Backed by a study of 11,000 public Compose files —
   [9 in 10 skip the basic security flags](https://dev.to/tmatens/9-in-10-docker-compose-files-skip-the-basic-security-flags-2dpf).
 - **[container-sec-derive](https://github.com/tmatens/container-sec-derive)** — runtime observation
   tool (Go, eBPF via Inspektor Gadget) that watches a container run and derives the minimum
